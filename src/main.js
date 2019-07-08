@@ -5,6 +5,13 @@ import App from './App'
 import router from './router'
 import store from './store'
 
+import axios from 'axios';
+Vue.prototype.axios = axios;
+
+Vue.filter('setWH',(url,arg)=>{
+  return url.replace(/w\.h/,arg);
+})
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
