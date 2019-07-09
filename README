@@ -1,1 +1,6 @@
 #模拟的数据利用easy-mock创建的
+
+#解决触发以及滑动的流畅问题
+iscroll swiper better-scroll
+
+此项目选择better-scroll
